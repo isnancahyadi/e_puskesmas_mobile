@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedule_day"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_column="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedule_doctor"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_column="1"/>
+
+    </TableRow>
+
+</TableLayout>
